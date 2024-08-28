@@ -1,0 +1,67 @@
+    /* nav-barra*/
+    .nav-link:hover {
+        color: #ff6347 !important; /* color*/
+        font-size: 1.2rem; /*  tamaño fuente*/
+        transition: color 0.3s ease, font-size 0.3s ease; /*transición */
+    }
+
+
+        /*hero img portada*/
+    .hero-section {
+        background-image: url("img/img-portada.jpg");
+        background-size:contain;
+        background-position: center;
+        height: 66vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        /*estilo de h1*/
+    .hero-section h1 {
+        font-weight: 700;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgb(141, 137, 137);
+
+    }
+        /*estilo de p*/
+    .hero-section p {
+        color: #ffffff;
+        text-shadow: 1px 1px 2px rgb(202, 200, 200);
+    }
+        /*wspp*/
+    .whatsapp-link {
+        color: #25d366;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+        /*wsp.select*/
+    .whatsapp-link:hover {
+        color: #128c7e;
+    }
+
+        /* Color naranja prom */
+    .bg-orange {
+        background-color: #f8892d; 
+    }
+
+        /* container test */
+
+    .image-container {
+        position: relative; /* posicion relativa al contenedor  */
+        overflow: hidden; /* desbordar la imagen*/
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.4s ease;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.4s ease;
+    }
+
+    .image-container:hover img {
+        transform: scale(1.05);
+    }
